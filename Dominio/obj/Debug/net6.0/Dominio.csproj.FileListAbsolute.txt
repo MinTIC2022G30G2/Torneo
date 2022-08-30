@@ -1,0 +1,12 @@
+E:\Paralelo\Documentos\Jorge\Mintic\Ciclo 3\Desarrollo\Codigo\Aplicacion\Dominio\bin\Debug\net6.0\Dominio.deps.json
+E:\Paralelo\Documentos\Jorge\Mintic\Ciclo 3\Desarrollo\Codigo\Aplicacion\Dominio\bin\Debug\net6.0\Dominio.dll
+E:\Paralelo\Documentos\Jorge\Mintic\Ciclo 3\Desarrollo\Codigo\Aplicacion\Dominio\bin\Debug\net6.0\Dominio.pdb
+E:\Paralelo\Documentos\Jorge\Mintic\Ciclo 3\Desarrollo\Codigo\Aplicacion\Dominio\obj\Debug\net6.0\Dominio.csproj.AssemblyReference.cache
+E:\Paralelo\Documentos\Jorge\Mintic\Ciclo 3\Desarrollo\Codigo\Aplicacion\Dominio\obj\Debug\net6.0\Dominio.GeneratedMSBuildEditorConfig.editorconfig
+E:\Paralelo\Documentos\Jorge\Mintic\Ciclo 3\Desarrollo\Codigo\Aplicacion\Dominio\obj\Debug\net6.0\Dominio.AssemblyInfoInputs.cache
+E:\Paralelo\Documentos\Jorge\Mintic\Ciclo 3\Desarrollo\Codigo\Aplicacion\Dominio\obj\Debug\net6.0\Dominio.AssemblyInfo.cs
+E:\Paralelo\Documentos\Jorge\Mintic\Ciclo 3\Desarrollo\Codigo\Aplicacion\Dominio\obj\Debug\net6.0\Dominio.csproj.CoreCompileInputs.cache
+E:\Paralelo\Documentos\Jorge\Mintic\Ciclo 3\Desarrollo\Codigo\Aplicacion\Dominio\obj\Debug\net6.0\Dominio.dll
+E:\Paralelo\Documentos\Jorge\Mintic\Ciclo 3\Desarrollo\Codigo\Aplicacion\Dominio\obj\Debug\net6.0\refint\Dominio.dll
+E:\Paralelo\Documentos\Jorge\Mintic\Ciclo 3\Desarrollo\Codigo\Aplicacion\Dominio\obj\Debug\net6.0\Dominio.pdb
+E:\Paralelo\Documentos\Jorge\Mintic\Ciclo 3\Desarrollo\Codigo\Aplicacion\Dominio\obj\Debug\net6.0\ref\Dominio.dll

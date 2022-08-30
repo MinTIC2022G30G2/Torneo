@@ -1,0 +1,17 @@
+E:\Paralelo\Documentos\Jorge\Mintic\Ciclo 3\Desarrollo\Codigo\Aplicacion\Persistencia\obj\Debug\net6.0\Persistencia.csproj.AssemblyReference.cache
+E:\Paralelo\Documentos\Jorge\Mintic\Ciclo 3\Desarrollo\Codigo\Aplicacion\Persistencia\obj\Debug\net6.0\Persistencia.GeneratedMSBuildEditorConfig.editorconfig
+E:\Paralelo\Documentos\Jorge\Mintic\Ciclo 3\Desarrollo\Codigo\Aplicacion\Persistencia\obj\Debug\net6.0\Persistencia.AssemblyInfoInputs.cache
+E:\Paralelo\Documentos\Jorge\Mintic\Ciclo 3\Desarrollo\Codigo\Aplicacion\Persistencia\obj\Debug\net6.0\Persistencia.AssemblyInfo.cs
+E:\Paralelo\Documentos\Jorge\Mintic\Ciclo 3\Desarrollo\Codigo\Aplicacion\Persistencia\obj\Debug\net6.0\Persistencia.csproj.CoreCompileInputs.cache
+E:\Paralelo\Documentos\Jorge\Mintic\Ciclo 3\Desarrollo\Codigo\Aplicacion\Persistencia\bin\Debug\net6.0\Persistencia.deps.json
+E:\Paralelo\Documentos\Jorge\Mintic\Ciclo 3\Desarrollo\Codigo\Aplicacion\Persistencia\bin\Debug\net6.0\Persistencia.runtimeconfig.json
+E:\Paralelo\Documentos\Jorge\Mintic\Ciclo 3\Desarrollo\Codigo\Aplicacion\Persistencia\bin\Debug\net6.0\Persistencia.dll
+E:\Paralelo\Documentos\Jorge\Mintic\Ciclo 3\Desarrollo\Codigo\Aplicacion\Persistencia\bin\Debug\net6.0\Persistencia.pdb
+E:\Paralelo\Documentos\Jorge\Mintic\Ciclo 3\Desarrollo\Codigo\Aplicacion\Persistencia\bin\Debug\net6.0\Dominio.dll
+E:\Paralelo\Documentos\Jorge\Mintic\Ciclo 3\Desarrollo\Codigo\Aplicacion\Persistencia\bin\Debug\net6.0\Dominio.pdb
+E:\Paralelo\Documentos\Jorge\Mintic\Ciclo 3\Desarrollo\Codigo\Aplicacion\Persistencia\obj\Debug\net6.0\Persistencia.csproj.CopyComplete
+E:\Paralelo\Documentos\Jorge\Mintic\Ciclo 3\Desarrollo\Codigo\Aplicacion\Persistencia\obj\Debug\net6.0\Persistencia.dll
+E:\Paralelo\Documentos\Jorge\Mintic\Ciclo 3\Desarrollo\Codigo\Aplicacion\Persistencia\obj\Debug\net6.0\refint\Persistencia.dll
+E:\Paralelo\Documentos\Jorge\Mintic\Ciclo 3\Desarrollo\Codigo\Aplicacion\Persistencia\obj\Debug\net6.0\Persistencia.pdb
+E:\Paralelo\Documentos\Jorge\Mintic\Ciclo 3\Desarrollo\Codigo\Aplicacion\Persistencia\obj\Debug\net6.0\Persistencia.genruntimeconfig.cache
+E:\Paralelo\Documentos\Jorge\Mintic\Ciclo 3\Desarrollo\Codigo\Aplicacion\Persistencia\obj\Debug\net6.0\ref\Persistencia.dll

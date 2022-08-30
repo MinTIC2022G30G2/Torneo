@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "bYDH2oIrDiAdORzZdpc5aY2XtcbBfxV0ZCb1LGOQPtRzM4X2LHyfa1M49mJZbnQ8L8B54keMHMUll+Upqw3GqQ==",
+  "success": true,
+  "projectFilePath": "E:\\Paralelo\\Documentos\\Jorge\\Mintic\\Ciclo 3\\Desarrollo\\Codigo\\Aplicacion\\Dominio\\Dominio.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Casa\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
