@@ -1,14 +1,15 @@
-namespace Dominio
-{
-    public class Colegio
-    {
-        public int Id { set; get; }
-        public string Nit { set; get; }
-        public string RazonSocial { set; get; }
-        public string Direccion { set; get; }
-        public string Telefono { set; get; }
-        public string Modalidad { set; get; }
-        public string Licencia { set; get; }
+using System;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
+namespace Dominio{
+    public class Colegio{
+        public int Id { get; set; }
+        public string Nit { get; set; }
+        public string RazonSocial { get; set; }
+        public string Direccion { get; set; }
+        public string Telefono { get; set; }
+        public string Modalidad { get; set; }
+        public string Licencia { get; set; }
     }
 }

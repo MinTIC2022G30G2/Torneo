@@ -13,9 +13,7 @@ namespace Persistencia
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder){
             if(!optionsBuilder.IsConfigured){
                 optionsBuilder.UseSqlServer("Data Source=(localdb)\\MSSQLLocalDB; Initial Catalog=Eventos30;Integrated Security=True;");
-
             }
         }
-
     }
 }

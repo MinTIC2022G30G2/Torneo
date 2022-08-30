@@ -3,11 +3,8 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-
-namespace Dominio
-{   
-    public class Municipio
-    {
+namespace Dominio{
+    public class Municipio{
         public int Id { get; set; }
 
         [Required(ErrorMessage="Este campo es obligatorio")]
