@@ -9,6 +9,7 @@ namespace Persistencia
         public DbSet<Patrocinador> Patrocinadores { set; get; }
         public DbSet<Colegio> Colegios { set; get; }
         public DbSet<Torneo> Torneos { set; get; }
+        public DbSet<UnidadDeportiva> UnidadDeportivas { set; get; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder){
             if(!optionsBuilder.IsConfigured){

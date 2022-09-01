@@ -6,7 +6,7 @@ namespace Persistencia{
         public bool CrearMunicipio(Municipio municipio);
         public Municipio BuscarMunicipio(int idMunicipio);
         public bool ActualizarMunicipio(Municipio municipio);
-        public bool EliminarMunicipio(Municipio municipio);
+        public bool EliminarMunicipio(int idMunicipio);
         public List<Municipio> ListarMunicipios1();
         public IEnumerable<Municipio> ListarMunicipios();
     }

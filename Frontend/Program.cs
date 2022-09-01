@@ -1,7 +1,15 @@
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+//using RazorPagesMovie.Data;
+using Persistencia;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+
+builder.Services.AddDbContext<Persistencia.AppContext>();
+builder.Services.AddScoped<IRMunicipio,RMunicipio>();
 
 var app = builder.Build();
 

@@ -26,6 +26,9 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "E:\\Paralelo\\Documentos\\Jorge\\Mintic\\Ciclo 3\\Desarrollo\\Codigo\\Aplicacion\\Dominio\\Dominio.csproj": {
+                "projectPath": "E:\\Paralelo\\Documentos\\Jorge\\Mintic\\Ciclo 3\\Desarrollo\\Codigo\\Aplicacion\\Dominio\\Dominio.csproj"
+              },
               "E:\\Paralelo\\Documentos\\Jorge\\Mintic\\Ciclo 3\\Desarrollo\\Codigo\\Aplicacion\\Persistencia\\Persistencia.csproj": {
                 "projectPath": "E:\\Paralelo\\Documentos\\Jorge\\Mintic\\Ciclo 3\\Desarrollo\\Codigo\\Aplicacion\\Persistencia\\Persistencia.csproj"
               }
@@ -45,6 +48,10 @@
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "System.ComponentModel.Annotations": {
               "target": "Package",
               "version": "[5.0.0, )"
             }
@@ -102,6 +109,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -162,23 +175,23 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[6.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[6.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[6.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[6.0.0, )"
             }
           },
           "imports": [

@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -23,11 +24,11 @@ namespace Dominio{
 
         [Required(ErrorMessage="Este campo es obligatorio")]
         [DataType(DataType.Date)]
-        public string FechaInicio { get; set; }
+        public DateTime FechaInicio { get; set; }
 
         [Required(ErrorMessage="Este campo es obligatorio")]
         [DataType(DataType.Date)]
-        public string FechaFin { get; set; }
+        public DateTime FechaFin { get; set; }
 
         [Required(ErrorMessage="Este campo es obligatorio")]
         public int Equipos { get; set; }
@@ -40,5 +41,7 @@ namespace Dominio{
         [Required(ErrorMessage="Este campo es obligatorio")]
         public int MunicipioId { get; set; }
         //public Municipio Municipio { set; get; }
+
+        public List<UnidadDeportiva> UnidadDeportivas { get; set; }
    }
 }

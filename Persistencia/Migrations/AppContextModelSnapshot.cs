@@ -63,7 +63,8 @@ namespace Persistencia.Migrations
 
                     b.Property<string>("Nombre")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(30)
+                        .HasColumnType("nvarchar(30)");
 
                     b.HasKey("Id");
 
@@ -100,6 +101,123 @@ namespace Persistencia.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Patrocinadores");
+                });
+
+            modelBuilder.Entity("Dominio.Torneo", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .UseIdentityColumn();
+
+                    b.Property<string>("Categoria")
+                        .IsRequired()
+                        .HasMaxLength(10)
+                        .HasColumnType("nvarchar(10)");
+
+                    b.Property<int>("Equipos")
+                        .HasColumnType("int");
+
+                    b.Property<string>("FechaFin")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("FechaInicio")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Fixture")
+                        .IsRequired()
+                        .HasMaxLength(20)
+                        .HasColumnType("nvarchar(20)");
+
+                    b.Property<string>("Modalidad")
+                        .IsRequired()
+                        .HasMaxLength(15)
+                        .HasColumnType("nvarchar(15)");
+
+                    b.Property<int>("MunicipioId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Nombre")
+                        .IsRequired()
+                        .HasMaxLength(30)
+                        .HasColumnType("nvarchar(30)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("MunicipioId");
+
+                    b.ToTable("Torneos");
+                });
+
+            modelBuilder.Entity("Dominio.UnidadDeportiva", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .UseIdentityColumn();
+
+                    b.Property<string>("Categoria")
+                        .IsRequired()
+                        .HasMaxLength(15)
+                        .HasColumnType("nvarchar(15)");
+
+                    b.Property<string>("Nombre")
+                        .IsRequired()
+                        .HasMaxLength(40)
+                        .HasColumnType("nvarchar(40)");
+
+                    b.Property<int>("TorneoId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("UnidadDeportivas");
+                });
+
+            modelBuilder.Entity("TorneoUnidadDeportiva", b =>
+                {
+                    b.Property<int>("TorneosId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("UnidadDeportivasId")
+                        .HasColumnType("int");
+
+                    b.HasKey("TorneosId", "UnidadDeportivasId");
+
+                    b.HasIndex("UnidadDeportivasId");
+
+                    b.ToTable("TorneoUnidadDeportiva");
+                });
+
+            modelBuilder.Entity("Dominio.Torneo", b =>
+                {
+                    b.HasOne("Dominio.Municipio", null)
+                        .WithMany("Torneos")
+                        .HasForeignKey("MunicipioId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("TorneoUnidadDeportiva", b =>
+                {
+                    b.HasOne("Dominio.Torneo", null)
+                        .WithMany()
+                        .HasForeignKey("TorneosId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Dominio.UnidadDeportiva", null)
+                        .WithMany()
+                        .HasForeignKey("UnidadDeportivasId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("Dominio.Municipio", b =>
+                {
+                    b.Navigation("Torneos");
                 });
 #pragma warning restore 612, 618
         }

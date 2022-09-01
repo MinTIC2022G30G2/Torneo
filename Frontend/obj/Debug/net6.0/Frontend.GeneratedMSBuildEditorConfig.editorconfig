@@ -15,6 +15,26 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = E:\Paralelo\Documentos\Jorge\Mintic\Ciclo 3\Desarrollo\Codigo\Aplicacion\Frontend
 build_property._RazorSourceGeneratorDebug = 
 
+[E:/Paralelo/Documentos/Jorge/Mintic/Ciclo 3/Desarrollo/Codigo/Aplicacion/Frontend/Pages/CMunicipio/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ011bmljaXBpb1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Paralelo/Documentos/Jorge/Mintic/Ciclo 3/Desarrollo/Codigo/Aplicacion/Frontend/Pages/CMunicipio/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ011bmljaXBpb1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Paralelo/Documentos/Jorge/Mintic/Ciclo 3/Desarrollo/Codigo/Aplicacion/Frontend/Pages/CMunicipio/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ011bmljaXBpb1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Paralelo/Documentos/Jorge/Mintic/Ciclo 3/Desarrollo/Codigo/Aplicacion/Frontend/Pages/CMunicipio/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ011bmljaXBpb1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Paralelo/Documentos/Jorge/Mintic/Ciclo 3/Desarrollo/Codigo/Aplicacion/Frontend/Pages/CTorneo/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ1Rvcm5lb1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/Paralelo/Documentos/Jorge/Mintic/Ciclo 3/Desarrollo/Codigo/Aplicacion/Frontend/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
