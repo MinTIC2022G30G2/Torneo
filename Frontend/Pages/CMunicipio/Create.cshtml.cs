@@ -11,7 +11,7 @@ namespace Frontend.Pages.CMunicipio{
     public class CreateModel : PageModel{
         private readonly IRMunicipio _repoMunicipio;
         [BindProperty]
-        public Municipio Municipio { get;set; }
+        public Municipio Municipio { get; set; }
         public CreateModel(IRMunicipio repoMunicipio){
             this._repoMunicipio = repoMunicipio;
         }
@@ -19,9 +19,11 @@ namespace Frontend.Pages.CMunicipio{
             return Page();
         }
         public ActionResult OnPost(){
+            ViewData["Error"] = "Enviado"; 
             if(!ModelState.IsValid){
                 return Page();
             }
+            ViewData["Error"] = Municipio.Id; 
             bool funciono=_repoMunicipio.CrearMunicipio(Municipio);
             if(funciono){
                 return RedirectToPage("./Index");

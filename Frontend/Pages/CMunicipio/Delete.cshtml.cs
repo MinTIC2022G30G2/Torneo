@@ -25,7 +25,7 @@ namespace Frontend.Pages.CMunicipio{
             }
             return Page();
         }
-        public ActionResult OnPost(){
+        public ActionResult OnPost(int id){
             bool funciono=_repoMunicipio.EliminarMunicipio(Municipio.Id);
             if(funciono){
                 return RedirectToPage("./Index");
