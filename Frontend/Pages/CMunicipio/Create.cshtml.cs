@@ -19,12 +19,10 @@ namespace Frontend.Pages.CMunicipio{
             return Page();
         }
         public ActionResult OnPost(){
-            ViewData["Error"] = "Enviado"; 
             if(!ModelState.IsValid){
                 return Page();
             }
-            ViewData["Error"] = Municipio.Id; 
-            bool funciono=_repoMunicipio.CrearMunicipio(Municipio);
+            bool funciono = _repoMunicipio.CrearMunicipio(Municipio);
             if(funciono){
                 return RedirectToPage("./Index");
             }else{

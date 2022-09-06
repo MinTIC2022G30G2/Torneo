@@ -9,10 +9,10 @@ using Persistencia;
 
 namespace Frontend.Pages.CMunicipio{
     public class DeleteModel : PageModel{
-        
         private readonly IRMunicipio _repoMunicipio;
         [BindProperty]
         public Municipio Municipio { get;set; }
+        public DeleteModel(){}
         public DeleteModel(IRMunicipio repoMunicipio){
             this._repoMunicipio=repoMunicipio;
         }

@@ -41,7 +41,18 @@ namespace Dominio{
         [Required(ErrorMessage="Este campo es obligatorio")]
         public int MunicipioId { get; set; }
         //public Municipio Municipio { set; get; }
+        //public List<UnidadDeportiva> UnidadDeportivas { get; set; }
 
-        public List<UnidadDeportiva> UnidadDeportivas { get; set; }
+        public Torneo(int id, string nombre, string categoria, string modalidad, DateTime fechaInicio, DateTime fechaFin, int equipos, string fixture, int municipioId){
+            Id = id;
+            Nombre = nombre;
+            Categoria = categoria;
+            Modalidad = modalidad;
+            FechaInicio = fechaInicio;
+            FechaFin = fechaFin;
+            Equipos = equipos;
+            Fixture = fixture;
+            MunicipioId = municipioId;
+        }
    }
 }

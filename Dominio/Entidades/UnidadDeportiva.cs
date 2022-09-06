@@ -19,5 +19,12 @@ namespace Dominio{
 
         [Required(ErrorMessage="Este campo es obligatorio")]
         public int TorneoId { get; set; }
+
+        public UnidadDeportiva(int id, string nombre, string direccion, int torneoId){
+            Id = id;
+            Nombre = nombre;
+            Direccion = direccion;
+            TorneoId = torneoId;
+        }
     }
 }

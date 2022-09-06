@@ -23,7 +23,10 @@ namespace Persistencia{
             return bandera;
         }
         public Municipio BuscarMunicipio(int idMunicipio){
-            Municipio municipio= _appContext.Municipios.Find(idMunicipio);
+            if(idMunicipio == 0){
+                idMunicipio = 1;
+            }
+            Municipio municipio = _appContext.Municipios.Find(idMunicipio);
             return municipio;
         }
         public bool ActualizarMunicipio(Municipio municipio){
@@ -61,12 +64,15 @@ namespace Persistencia{
             return this._appContext.Municipios;
         }
         private bool Existe(Municipio municipio){
-            bool ex= false;
-            Municipio mun= _appContext.Municipios.FirstOrDefault(m=> m.Nombre == municipio.Nombre);
-            if(mun != null){
-                ex=true;
+            bool flag = false;
+            if(municipio.Nombre == null){
+                municipio.Nombre = "";
             }
-            return ex;
+            Municipio mun = _appContext.Municipios.FirstOrDefault(m=> m.Nombre == municipio.Nombre);
+            if(mun != null){
+                flag = true;
+            }
+            return flag;
         }
     }
 }
