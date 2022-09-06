@@ -1,5 +1,8 @@
 using System;
 using System.ComponentModel.DataAnnotations;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Dominio
 {
@@ -10,6 +13,11 @@ namespace Dominio
         [Required(ErrorMessage="Este campo es obligatorio")]
         [MaxLength(30,ErrorMessage="El campo {0} debe ser maximo de {1} caracteres")]
         [MinLength(4,ErrorMessage="El campo {0} debe ser minimo de {1} caracteres")]
+        //[RegularExpression("^[a-zA-Z ]*$",ErrorMessage="Error solo se aceptan letras")]
         public string Nombre {get;set;}
+
+
+        //Relacion con torneo y propiedad navigacional
+        public List<Torneo> Torneos {get;set;}
     }
 }
