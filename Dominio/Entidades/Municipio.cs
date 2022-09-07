@@ -23,6 +23,6 @@ namespace Dominio
         }
 
         //Relacion con torneo y propiedad navigacional
-        public List<Torneo> Torneos {get;set;}
+        //public List<Torneo> Torneos {get;set;}
     }
 }
