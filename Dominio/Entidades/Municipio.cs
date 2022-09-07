@@ -16,6 +16,12 @@ namespace Dominio
         //[RegularExpression("^[a-zA-Z ]*$",ErrorMessage="Error solo se aceptan letras")]
         public string Nombre {get;set;}
 
+        public Municipio(){}
+
+        public Municipio(int id, string nombre){
+            Id=id;
+            Nombre=nombre;
+        }
 
         //Relacion con torneo y propiedad navigacional
         public List<Torneo> Torneos {get;set;}
