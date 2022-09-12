@@ -8,12 +8,11 @@ namespace Persistencia{
         public RMunicipio(AppContext appContext){
             this._appContext=appContext;
         }
-        public bool CrearMunicipio(Municipio municipio){
+        public bool Crear(Municipio item){
             bool bandera = false;
-            bool ex = Existe(municipio);
-            if(!ex){
+            if(!Existe(item)){
                 try{
-                    this._appContext.Municipios.Add(municipio);
+                    this._appContext.Municipios.Add(item);
                     this._appContext.SaveChanges();
                     bandera = true;
                 }catch (System.Exception){
@@ -22,57 +21,54 @@ namespace Persistencia{
             }
             return bandera;
         }
-        public Municipio BuscarMunicipio(int idMunicipio){
-            if(idMunicipio == 0){
-                idMunicipio = 1;
-            }
-            Municipio municipio = _appContext.Municipios.Find(idMunicipio);
-            return municipio;
+        public Municipio Buscar(int id){
+            Municipio? item = _appContext.Municipios.Find(id);
+            return item;
         }
-        public bool ActualizarMunicipio(Municipio municipio){
-            bool actualizado=false;
-            var mun= _appContext.Municipios.Find(municipio.Id);
-            if(mun != null){
+        public bool Actualizar(Municipio item){
+            bool bandera = false;
+            var municipio = _appContext.Municipios.Find(item.Id);
+            if(municipio != null){
                 try{
-                    mun.Nombre=municipio.Nombre;
+                    municipio.Nombre = item.Nombre;
                     _appContext.SaveChanges();
-                    actualizado=true;
+                    bandera = true;
                 }catch(System.Exception){
-                    actualizado=false;
+                    bandera = false;
                 }
             }
-            return actualizado;
+            return bandera;
         }
-        public bool EliminarMunicipio(int idMunicipio){
-            bool eliminado= false;
-            var mun = this._appContext.Municipios.Find(idMunicipio);
-            if(mun != null){
+        public bool Eliminar(int id){
+            bool bandera = false;
+            var municipio = this._appContext.Municipios.Find(id);
+            if(municipio != null){
                 try{
-                    this._appContext.Municipios.Remove(mun);
+                    this._appContext.Municipios.Remove(municipio);
                     this._appContext.SaveChanges();
-                    eliminado=true;
+                    bandera = true;
                 }catch (System.Exception){
-                    eliminado=false;
+                    bandera = false;
                 }
             }
-            return eliminado;
+            return bandera;
         }
-        public List<Municipio> ListarMunicipios1(){
-            return this._appContext.Municipios.ToList(); //select * from Municipios
+        public List<Municipio> Listar1(){
+            return this._appContext.Municipios.ToList();
         }
-        public IEnumerable<Municipio> ListarMunicipios(){
+        public IEnumerable<Municipio> Listar(){
             return this._appContext.Municipios;
         }
-        private bool Existe(Municipio municipio){
-            bool flag = false;
-            if(municipio.Nombre == null){
-                municipio.Nombre = "";
+        private bool Existe(Municipio item){
+            bool bandera = false;
+            if(item.Nombre == null){
+                item.Nombre = "";
             }
-            Municipio mun = _appContext.Municipios.FirstOrDefault(m=> m.Nombre == municipio.Nombre);
-            if(mun != null){
-                flag = true;
+            Municipio? municipio = _appContext.Municipios.FirstOrDefault(m=> m.Nombre == item.Nombre);
+            if(municipio != null){
+                bandera = true;
             }
-            return flag;
+            return bandera;
         }
     }
 }

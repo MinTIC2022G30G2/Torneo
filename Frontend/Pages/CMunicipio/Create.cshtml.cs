@@ -9,11 +9,11 @@ using Persistencia;
 
 namespace Frontend.Pages.CMunicipio{
     public class CreateModel : PageModel{
-        private readonly IRMunicipio _repoMunicipio;
+        private readonly IRMunicipio _repositorio;
         [BindProperty]
-        public Municipio Municipio { get; set; }
-        public CreateModel(IRMunicipio repoMunicipio){
-            this._repoMunicipio = repoMunicipio;
+        public Municipio item { get; set; }
+        public CreateModel(IRMunicipio repositorio){
+            this._repositorio = repositorio;
         }
         public ActionResult OnGet(){
             return Page();
@@ -22,11 +22,10 @@ namespace Frontend.Pages.CMunicipio{
             if(!ModelState.IsValid){
                 return Page();
             }
-            bool funciono = _repoMunicipio.CrearMunicipio(Municipio);
-            if(funciono){
+            if(_repositorio.Crear(item)){
                 return RedirectToPage("./Index");
             }else{
-                ViewData["Error"] = "Municipio registrado previamente"; 
+                ViewData["Error"] = "Registro agregado previamente"; 
                 return Page();
             }
         }

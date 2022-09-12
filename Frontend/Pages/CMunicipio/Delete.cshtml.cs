@@ -9,25 +9,21 @@ using Persistencia;
 
 namespace Frontend.Pages.CMunicipio{
     public class DeleteModel : PageModel{
-        private readonly IRMunicipio _repoMunicipio;
+        private readonly IRMunicipio _repositorio;
         [BindProperty]
-        public Municipio Municipio { get;set; }
-        public DeleteModel(){}
-        public DeleteModel(IRMunicipio repoMunicipio){
-            this._repoMunicipio=repoMunicipio;
+        public Municipio item { get;set; }
+        public DeleteModel(IRMunicipio repositorio){
+            this._repositorio=repositorio;
         }
         public ActionResult OnGet(int id){
-            ViewData["Title"]="Eliminar Municipio";
-            Municipio = _repoMunicipio.BuscarMunicipio(id);
-            if(Municipio == null){
-                ViewData["Error"]="Municipio no encontrado";
+            if(_repositorio.Buscar(id) == null){
+                ViewData["Error"]="Registro no encontrado";
                 return Page();
             }
             return Page();
         }
         public ActionResult OnPost(int id){
-            bool funciono=_repoMunicipio.EliminarMunicipio(Municipio.Id);
-            if(funciono){
+            if(_repositorio.Eliminar(item.Id)){
                 return RedirectToPage("./Index");
             }else{
                 ViewData["Error"]="Fallo al eliminar el registro";

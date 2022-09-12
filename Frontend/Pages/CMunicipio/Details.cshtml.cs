@@ -9,14 +9,14 @@ using Persistencia;
 
 namespace Frontend.Pages.CMunicipio{
     public class DetailsModel : PageModel{
-        private readonly IRMunicipio _repoMunicipio;
+        private readonly IRMunicipio _repositorio;
         [BindProperty]
-        public Municipio Municipio { get;set; }
-        public DetailsModel(IRMunicipio repoMunicipio){
-            this._repoMunicipio=repoMunicipio;
+        public Municipio item { get;set; }
+        public DetailsModel(IRMunicipio repositorio){
+            this._repositorio = repositorio;
         }
         public ActionResult OnGet(int id){
-            Municipio=_repoMunicipio.BuscarMunicipio(id);
+            item = _repositorio.Buscar(id);
             return Page();
         }
     }

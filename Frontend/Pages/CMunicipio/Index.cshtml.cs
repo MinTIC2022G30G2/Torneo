@@ -9,14 +9,13 @@ using Persistencia;
 
 namespace Frontend.Pages.CMunicipio{
     public class IndexModel : PageModel{
-        private readonly IRMunicipio _repoMunicipio;
-        public IEnumerable<Municipio> Municipios { get; set; }
-
-        public IndexModel(IRMunicipio repoMunicipio){
-            this._repoMunicipio = repoMunicipio;
+        private readonly IRMunicipio _repositorio;
+        public IEnumerable<Municipio> items { get; set; }
+        public IndexModel(IRMunicipio repositorio){
+            this._repositorio = repositorio;
         }
         public void OnGet(){
-            Municipios = _repoMunicipio.ListarMunicipios();
+            items = _repositorio.Listar();
         }
     }
 }
