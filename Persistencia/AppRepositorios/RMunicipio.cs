@@ -23,6 +23,9 @@ namespace Persistencia{
         }
         public Municipio Buscar(int id){
             Municipio? item = _appContext.Municipios.Find(id);
+            if(item == null){
+                item = new Municipio();
+            }
             return item;
         }
         public bool Actualizar(Municipio item){
@@ -61,14 +64,18 @@ namespace Persistencia{
         }
         private bool Existe(Municipio item){
             bool bandera = false;
-            if(item.Nombre == null){
-                item.Nombre = "";
-            }
             Municipio? municipio = _appContext.Municipios.FirstOrDefault(m=> m.Nombre == item.Nombre);
             if(municipio != null){
                 bandera = true;
             }
             return bandera;
+        }
+        public String Cadena(Municipio item){
+            if(Existe(item)){
+                return "Municipio: " + item.Id + " - " + item.Nombre;
+            }else{
+                return "";
+            }
         }
     }
 }

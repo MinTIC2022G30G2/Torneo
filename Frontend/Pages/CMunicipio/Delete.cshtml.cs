@@ -16,13 +16,15 @@ namespace Frontend.Pages.CMunicipio{
             this._repositorio=repositorio;
         }
         public ActionResult OnGet(int id){
-            if(_repositorio.Buscar(id) == null){
+            item = _repositorio.Buscar(id);
+            //Console.WriteLine(_repositorio.Cadena(item));
+            if(item == null){
                 ViewData["Error"]="Registro no encontrado";
                 return Page();
             }
             return Page();
         }
-        public ActionResult OnPost(int id){
+        public ActionResult OnPost(){
             if(_repositorio.Eliminar(item.Id)){
                 return RedirectToPage("./Index");
             }else{

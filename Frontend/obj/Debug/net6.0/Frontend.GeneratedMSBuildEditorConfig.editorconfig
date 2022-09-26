@@ -15,6 +15,186 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = E:\Paralelo\Documentos\Jorge\Mintic\Ciclo 3\Desarrollo\Codigo\Aplicacion\Frontend
 build_property._RazorSourceGeneratorDebug = 
 
+[E:/Paralelo/Documentos/Jorge/Mintic/Ciclo 3/Desarrollo/Codigo/Aplicacion/Frontend/Pages/CColegio/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ0NvbGVnaW9cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Paralelo/Documentos/Jorge/Mintic/Ciclo 3/Desarrollo/Codigo/Aplicacion/Frontend/Pages/CColegio/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ0NvbGVnaW9cRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Paralelo/Documentos/Jorge/Mintic/Ciclo 3/Desarrollo/Codigo/Aplicacion/Frontend/Pages/CColegio/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ0NvbGVnaW9cRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Paralelo/Documentos/Jorge/Mintic/Ciclo 3/Desarrollo/Codigo/Aplicacion/Frontend/Pages/CColegio/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ0NvbGVnaW9cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Paralelo/Documentos/Jorge/Mintic/Ciclo 3/Desarrollo/Codigo/Aplicacion/Frontend/Pages/CColegio/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ0NvbGVnaW9cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Paralelo/Documentos/Jorge/Mintic/Ciclo 3/Desarrollo/Codigo/Aplicacion/Frontend/Pages/CDeportista/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ0RlcG9ydGlzdGFcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Paralelo/Documentos/Jorge/Mintic/Ciclo 3/Desarrollo/Codigo/Aplicacion/Frontend/Pages/CDeportista/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ0RlcG9ydGlzdGFcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Paralelo/Documentos/Jorge/Mintic/Ciclo 3/Desarrollo/Codigo/Aplicacion/Frontend/Pages/CDeportista/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ0RlcG9ydGlzdGFcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Paralelo/Documentos/Jorge/Mintic/Ciclo 3/Desarrollo/Codigo/Aplicacion/Frontend/Pages/CDeportista/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ0RlcG9ydGlzdGFcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Paralelo/Documentos/Jorge/Mintic/Ciclo 3/Desarrollo/Codigo/Aplicacion/Frontend/Pages/CDeportista/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ0RlcG9ydGlzdGFcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Paralelo/Documentos/Jorge/Mintic/Ciclo 3/Desarrollo/Codigo/Aplicacion/Frontend/Pages/CEncuentro/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ0VuY3VlbnRyb1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Paralelo/Documentos/Jorge/Mintic/Ciclo 3/Desarrollo/Codigo/Aplicacion/Frontend/Pages/CEncuentro/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ0VuY3VlbnRyb1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Paralelo/Documentos/Jorge/Mintic/Ciclo 3/Desarrollo/Codigo/Aplicacion/Frontend/Pages/CEncuentro/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ0VuY3VlbnRyb1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Paralelo/Documentos/Jorge/Mintic/Ciclo 3/Desarrollo/Codigo/Aplicacion/Frontend/Pages/CEncuentro/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ0VuY3VlbnRyb1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Paralelo/Documentos/Jorge/Mintic/Ciclo 3/Desarrollo/Codigo/Aplicacion/Frontend/Pages/CEncuentro/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ0VuY3VlbnRyb1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Paralelo/Documentos/Jorge/Mintic/Ciclo 3/Desarrollo/Codigo/Aplicacion/Frontend/Pages/CEntrenador/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ0VudHJlbmFkb3JcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Paralelo/Documentos/Jorge/Mintic/Ciclo 3/Desarrollo/Codigo/Aplicacion/Frontend/Pages/CEntrenador/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ0VudHJlbmFkb3JcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Paralelo/Documentos/Jorge/Mintic/Ciclo 3/Desarrollo/Codigo/Aplicacion/Frontend/Pages/CEntrenador/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ0VudHJlbmFkb3JcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Paralelo/Documentos/Jorge/Mintic/Ciclo 3/Desarrollo/Codigo/Aplicacion/Frontend/Pages/CEntrenador/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ0VudHJlbmFkb3JcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Paralelo/Documentos/Jorge/Mintic/Ciclo 3/Desarrollo/Codigo/Aplicacion/Frontend/Pages/CEntrenador/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ0VudHJlbmFkb3JcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Paralelo/Documentos/Jorge/Mintic/Ciclo 3/Desarrollo/Codigo/Aplicacion/Frontend/Pages/CEquipo/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ0VxdWlwb1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Paralelo/Documentos/Jorge/Mintic/Ciclo 3/Desarrollo/Codigo/Aplicacion/Frontend/Pages/CEquipo/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ0VxdWlwb1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Paralelo/Documentos/Jorge/Mintic/Ciclo 3/Desarrollo/Codigo/Aplicacion/Frontend/Pages/CEquipo/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ0VxdWlwb1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Paralelo/Documentos/Jorge/Mintic/Ciclo 3/Desarrollo/Codigo/Aplicacion/Frontend/Pages/CEquipo/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ0VxdWlwb1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Paralelo/Documentos/Jorge/Mintic/Ciclo 3/Desarrollo/Codigo/Aplicacion/Frontend/Pages/CEquipo/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ0VxdWlwb1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Paralelo/Documentos/Jorge/Mintic/Ciclo 3/Desarrollo/Codigo/Aplicacion/Frontend/Pages/CEscenario/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ0VzY2VuYXJpb1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Paralelo/Documentos/Jorge/Mintic/Ciclo 3/Desarrollo/Codigo/Aplicacion/Frontend/Pages/CEscenario/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ0VzY2VuYXJpb1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Paralelo/Documentos/Jorge/Mintic/Ciclo 3/Desarrollo/Codigo/Aplicacion/Frontend/Pages/CEscenario/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ0VzY2VuYXJpb1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Paralelo/Documentos/Jorge/Mintic/Ciclo 3/Desarrollo/Codigo/Aplicacion/Frontend/Pages/CEscenario/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ0VzY2VuYXJpb1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Paralelo/Documentos/Jorge/Mintic/Ciclo 3/Desarrollo/Codigo/Aplicacion/Frontend/Pages/CEscenario/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ0VzY2VuYXJpb1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Paralelo/Documentos/Jorge/Mintic/Ciclo 3/Desarrollo/Codigo/Aplicacion/Frontend/Pages/CFixture/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ0ZpeHR1cmVcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Paralelo/Documentos/Jorge/Mintic/Ciclo 3/Desarrollo/Codigo/Aplicacion/Frontend/Pages/CFixture/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ0ZpeHR1cmVcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Paralelo/Documentos/Jorge/Mintic/Ciclo 3/Desarrollo/Codigo/Aplicacion/Frontend/Pages/CFixture/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ0ZpeHR1cmVcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Paralelo/Documentos/Jorge/Mintic/Ciclo 3/Desarrollo/Codigo/Aplicacion/Frontend/Pages/CFixture/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ0ZpeHR1cmVcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Paralelo/Documentos/Jorge/Mintic/Ciclo 3/Desarrollo/Codigo/Aplicacion/Frontend/Pages/CFixture/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ0ZpeHR1cmVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Paralelo/Documentos/Jorge/Mintic/Ciclo 3/Desarrollo/Codigo/Aplicacion/Frontend/Pages/CJuez/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ0p1ZXpcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Paralelo/Documentos/Jorge/Mintic/Ciclo 3/Desarrollo/Codigo/Aplicacion/Frontend/Pages/CJuez/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ0p1ZXpcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Paralelo/Documentos/Jorge/Mintic/Ciclo 3/Desarrollo/Codigo/Aplicacion/Frontend/Pages/CJuez/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ0p1ZXpcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Paralelo/Documentos/Jorge/Mintic/Ciclo 3/Desarrollo/Codigo/Aplicacion/Frontend/Pages/CJuez/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ0p1ZXpcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Paralelo/Documentos/Jorge/Mintic/Ciclo 3/Desarrollo/Codigo/Aplicacion/Frontend/Pages/CJuez/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ0p1ZXpcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Paralelo/Documentos/Jorge/Mintic/Ciclo 3/Desarrollo/Codigo/Aplicacion/Frontend/Pages/CModalidad/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ01vZGFsaWRhZFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Paralelo/Documentos/Jorge/Mintic/Ciclo 3/Desarrollo/Codigo/Aplicacion/Frontend/Pages/CModalidad/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ01vZGFsaWRhZFxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Paralelo/Documentos/Jorge/Mintic/Ciclo 3/Desarrollo/Codigo/Aplicacion/Frontend/Pages/CModalidad/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ01vZGFsaWRhZFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Paralelo/Documentos/Jorge/Mintic/Ciclo 3/Desarrollo/Codigo/Aplicacion/Frontend/Pages/CModalidad/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ01vZGFsaWRhZFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Paralelo/Documentos/Jorge/Mintic/Ciclo 3/Desarrollo/Codigo/Aplicacion/Frontend/Pages/CModalidad/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ01vZGFsaWRhZFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/Paralelo/Documentos/Jorge/Mintic/Ciclo 3/Desarrollo/Codigo/Aplicacion/Frontend/Pages/CMunicipio/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ011bmljaXBpb1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -27,8 +207,48 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ011bmljaXBpb1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[E:/Paralelo/Documentos/Jorge/Mintic/Ciclo 3/Desarrollo/Codigo/Aplicacion/Frontend/Pages/CMunicipio/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ011bmljaXBpb1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/Paralelo/Documentos/Jorge/Mintic/Ciclo 3/Desarrollo/Codigo/Aplicacion/Frontend/Pages/CMunicipio/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ011bmljaXBpb1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Paralelo/Documentos/Jorge/Mintic/Ciclo 3/Desarrollo/Codigo/Aplicacion/Frontend/Pages/CPatrocinador/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ1BhdHJvY2luYWRvclxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Paralelo/Documentos/Jorge/Mintic/Ciclo 3/Desarrollo/Codigo/Aplicacion/Frontend/Pages/CPatrocinador/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ1BhdHJvY2luYWRvclxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Paralelo/Documentos/Jorge/Mintic/Ciclo 3/Desarrollo/Codigo/Aplicacion/Frontend/Pages/CPatrocinador/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ1BhdHJvY2luYWRvclxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Paralelo/Documentos/Jorge/Mintic/Ciclo 3/Desarrollo/Codigo/Aplicacion/Frontend/Pages/CPatrocinador/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ1BhdHJvY2luYWRvclxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Paralelo/Documentos/Jorge/Mintic/Ciclo 3/Desarrollo/Codigo/Aplicacion/Frontend/Pages/CPatrocinador/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ1BhdHJvY2luYWRvclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Paralelo/Documentos/Jorge/Mintic/Ciclo 3/Desarrollo/Codigo/Aplicacion/Frontend/Pages/CTorneo/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ1Rvcm5lb1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Paralelo/Documentos/Jorge/Mintic/Ciclo 3/Desarrollo/Codigo/Aplicacion/Frontend/Pages/CTorneo/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ1Rvcm5lb1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Paralelo/Documentos/Jorge/Mintic/Ciclo 3/Desarrollo/Codigo/Aplicacion/Frontend/Pages/CTorneo/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ1Rvcm5lb1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Paralelo/Documentos/Jorge/Mintic/Ciclo 3/Desarrollo/Codigo/Aplicacion/Frontend/Pages/CTorneo/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ1Rvcm5lb1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/Paralelo/Documentos/Jorge/Mintic/Ciclo 3/Desarrollo/Codigo/Aplicacion/Frontend/Pages/CTorneo/Index.cshtml]
