@@ -1,42 +1,46 @@
-namespace Dominio
-{
-    public class Colegio
-    {
-        public int Id { set; get; }
+using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+
+namespace Dominio{
+    public class Torneo{
+        public int Id { get; set; }
 
         [Required(ErrorMessage="Este campo es obligatorio")]
         [MaxLength(30, ErrorMessage="Este campo {0} debe ser maximo de {1} caracteres")]
         [MinLength(4, ErrorMessage="Este campo {0} debe ser minimo de {1} caracteres")]
-        public string Nombre { set; get; }
+        public string Nombre { get; set; }
 
         [Required(ErrorMessage="Este campo es obligatorio")]
         [MaxLength(10, ErrorMessage="Este campo {0} debe ser maximo de {1} caracteres")]
         [MinLength(5, ErrorMessage="Este campo {0} debe ser minimo de {1} caracteres")]
-        public string Categoria { set; get; }
-
-        [Required(ErrorMessage="Este campo es obligatorio")]
-        [MaxLength(15, ErrorMessage="Este campo {0} debe ser maximo de {1} caracteres")]
-        [MinLength(5, ErrorMessage="Este campo {0} debe ser minimo de {1} caracteres")]
-        public string Modalidad { set; get; }
+        public string Categoria { get; set; }
 
         [Required(ErrorMessage="Este campo es obligatorio")]
         [DataType(DataType.Date)]
-        public string FechaInicio { set; get; }
+        public DateTime FechaInicio { get; set; }
 
         [Required(ErrorMessage="Este campo es obligatorio")]
         [DataType(DataType.Date)]
-        public string FechaFin { set; get; }
+        public DateTime FechaFin { get; set; }
 
-        [Required(ErrorMessage="Este campo es obligatorio")]
-        public int Equipos { set; get; }
+		[Required(ErrorMessage="Este campo es obligatorio")]
+        public int ModalidadId { get; set; }
 
-        [Required(ErrorMessage="Este campo es obligatorio")]
-        [MaxLength(20, ErrorMessage="Este campo {0} debe ser maximo de {1} caracteres")]
-        [MinLength(15, ErrorMessage="Este campo {0} debe ser minimo de {1} caracteres")]
-        public string Fixture { set; get; }
-
-        [Required(ErrorMessage="Este campo es obligatorio")]
-        public int MunicipioId { set; get; }
         //public Municipio Municipio { set; get; }
+        //public List<UnidadDeportiva> UnidadDeportivas { get; set; }
+
+        public Modalidad Modalidad { get; set; }
+
+        public Torneo(){}
+        public Torneo(int id, string nombre, string categoria, DateTime fechaInicio, DateTime fechaFin, int modalidadId){
+            this.Id = id;
+            this.Nombre = nombre;
+            this.Categoria = categoria;
+            this.FechaInicio = fechaInicio;
+            this.FechaFin = fechaFin;
+            this.ModalidadId = modalidadId;
+        }
    }
 }

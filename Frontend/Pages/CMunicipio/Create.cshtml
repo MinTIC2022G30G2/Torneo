@@ -1,0 +1,27 @@
+﻿@page
+@model Frontend.Pages.CMunicipio.CreateModel
+@{
+    ViewData["Title"] = "Agregar Municipio";
+}
+<h2>@ViewData["Title"]</h2>
+<hr/>
+<h4 class="text-danger">@ViewData["Error"]</h4>
+<div class="form-horizontal">
+	<div class="row">
+		<div class="col-md-4">
+			<form method="post">
+				<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+				<div class="form-group">
+					<label asp-for="item.Nombre" class="control-label"></label>
+					<input type="text" asp-for="item.Nombre" class="form-control"/>
+					<span asp-validation-for="item.Nombre" class="text-danger"></span>
+				</div>
+				<br/>
+				<div class="form-group">
+					<input type="submit" value="Enviar" class="btn btn-primary"/>
+					<a asp-page="Index" class="btn btn-secondary">Cancelar</a>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
